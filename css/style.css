@@ -1,0 +1,54 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	font-size: 12px;
+}
+
+.cel.healthy:hover{
+	background-color: green;
+}
+
+.connector_h{
+	background-color: green;
+}
+
+.connector_v{
+	background-color: green;
+}
+
+.container{
+	position: absolute;
+	background-color: grey;
+}
+
+.healthy {
+	width:20px;
+	height:20px;
+	background: url("../img/sprite.png") 0 0;
+	background-size:60px 20px;
+}
+
+.infected{
+	width:20px;
+	height:20px;
+	background: url("../img/sprite.png") -20px 0;
+	background-size:60px 20px;
+}
+
+.ill{
+	width:20px;
+	height:20px;
+	background: url("../img/sprite.png") -40px 0;
+	background-size:60px 20px;
+}
+
+.nature.rock {
+	background-image: url("../img/mountine.png");
+	background-size:20px 20px;
+}
+
+.nature.tree {
+	background-image: url("../img/tree.png");
+	background-size:20px 20px;
+}
